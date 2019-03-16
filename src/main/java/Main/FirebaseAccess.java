@@ -1,51 +1,38 @@
 package Main;
 
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
-import javafx.stage.Stage;
 import net.thegreshams.firebase4j.error.FirebaseException;
+import net.thegreshams.firebase4j.error.JacksonUtilityException;
 import net.thegreshams.firebase4j.model.FirebaseResponse;
 import net.thegreshams.firebase4j.service.Firebase;
+import org.codehaus.jackson.annotate.JacksonAnnotation;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
+import javax.swing.*;
+import java.io.UnsupportedEncodingException;
+import java.util.Map;
 
-public class FirebaseAccess extends Application {
-    static FirebaseResponse response;
-    static Firebase firebase;
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+public class FirebaseAccess {
+    private String firebase_url = "https://test-3561a.firebaseio.com/";
+    private Firebase current_firebase;
+    private FirebaseResponse action;
 
-    @Override
-    public void start(Stage primaryStage) throws IOException {
-        FirebaseAccess invoke = new FirebaseAccess();
+    public FirebaseAccess(){
         try{
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/MainGUI.fxml"));
-            Parent root = loader.load();
-            primaryStage.setScene(new Scene(root,800,600));
+            current_firebase = new Firebase(firebase_url);
         }
-        catch(Exception e){
-            System.out.println("Idk");
-            e.printStackTrace();
-        }
-        invoke.initialize();
-        //primaryStage.setScene(new Scene(,600,400));
-        primaryStage.show();
-    }
-    private void initialize(){
-        String firebase_baseUrl = "https://test-3561a.firebaseio.com/";
-        try {
-            firebase = new Firebase( firebase_baseUrl );
-        } catch (FirebaseException e) {
-            e.printStackTrace();
+        catch(FirebaseException e){
+            System.out.println("Firebase connection failed");
         }
     }
 
+    protected void saveData(Map<String, Object> data){
+        try {
+            action = current_firebase.put(data);
+            JOptionPane.showMessageDialog(null, "Insertion complete");
+        }
+        catch(FirebaseException | UnsupportedEncodingException | JacksonUtilityException e){
+            System.out.println("Connection failed");
+            e.printStackTrace();
+        }
+    }
 }
