@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a613d804-9fdb-4cac-ac10-1f346b2cb6c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Access.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main/FirebaseAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/FirebaseAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/MainGUIController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MainGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main/FirebaseAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/FirebaseAccess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/MainGUIController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainGUI.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/UserInterface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/UserInterface$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main/UserInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/UserInterface.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +36,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Main/MainGUI.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/Main/MainGUIController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Main/UserInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main/FirebaseAccess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main/UserInterface.java" />
       </list>
     </option>
   </component>
@@ -73,6 +68,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,33 +106,44 @@
             <path>
               <item name="FirebasePractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Firebase4j User-Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirebasePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Firebase4j User-Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirebasePractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Firebase4j User-Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552752795460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552770717317" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$/src/main/java/Main" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +208,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,7 +216,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34369886" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -233,50 +241,45 @@
     <entry file="file://$PROJECT_DIR$/src/MainGUI.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MainGUI.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Main/MainGUI.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main/Access.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main/MainGUIController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/Access.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/MainGUIController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/MainGUI.fxml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MainGUI.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/impl/client/AbstractHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7218">
+          <caret line="611" selection-start-line="611" selection-end-line="611" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/background.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main/UserInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+        <state relative-caret-position="191">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main/FirebaseAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="-200">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
